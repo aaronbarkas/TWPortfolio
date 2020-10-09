@@ -2,7 +2,7 @@
 
 > Hello everyone that views this portfolio.
 
-My name is Aaron Barkas and I am an I.T graduate with over 2 years experience in the I.T industry. Working as a Service Desk Analyst and a Database Analyst. Im looking to begin a career in technical writing as I enjoy learning and creating content that people will use for there employment and potentially daily life.
+My name is Aaron Barkas and I am an I.T graduate with over 2 years experience in the I.T industry. Working as a Service Desk Analyst and a Database Analyst. I'm looking to begin a career in technical writing as I enjoy learning and creating content that people will use for there employment and potentially daily life.
 
 This portfolio is written using the markdown markup (quite a mouthful) language and using the Docsify document site generator that scaffolds a static documentation site.
 
@@ -14,6 +14,8 @@ This portfolio is also a work in progress and will improve as my skills develop.
 
 
 # User Guides
+
+User guides section will display the user guides I have created in the workplace or to give examples of my technical writing.
 
 
 
@@ -93,4 +95,43 @@ The process flow was to show the user journey and the interaction between differ
 
 The manager view shows the user journey for the manager of the web application.
 
-<img src="ManagerView.PNG" alt="ManagerView" style="zoom:60%; padding-right: 220px;" />
+<img src="ManagerView.PNG" alt="ManagerView" style="zoom:60%;" />
+
+
+
+# Database Design
+
+
+
+In this section I will display the database designs I have used professionally or as a hobby.
+
+
+
+## Price Comparison Customer Data Example
+
+This design wasn't used professionally but is based of the potential data a price comparison site will collect to compare customer data to match with the best quote from insurance providers. 
+
+
+
+<img src="Example Price Comparison Database.jpg" alt="Example Price Comparison Database" style="zoom:80%;"/>
+
+## Carpark System
+
+In my previous employment I assisted with the created of a new carpark database to be used as a web application. This isn't the same design but has been changed as to not infringe any Intellectual property.
+
+
+
+### ERD Carpark System Diagram
+
+ERD diagram displays the relationships between each table within the database.
+
+<img src="ERD Carpark App.jpeg" alt="ERD Carpark App" style="zoom: 30%;" />
+
+### Use Case Carpark System Diagram
+
+A use case diagram details the different tasks that a user will be able to perform on the system.
+
+
+
+<img src="C:\Users\aaron\Desktop\TWportfolio\docs\Carpark UML.jpeg" alt="Carpark UML" style="zoom: 25%;" />
+
