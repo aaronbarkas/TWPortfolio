@@ -2,7 +2,7 @@
 
 > Hello everyone that views this portfolio.
 
-
+My name is Aaron Barkas and I am an I.T graduate with over 2 years experience in the I.T industry. Working as a Service Desk Analyst and a Database Analyst. Im looking to begin a career in technical writing as I enjoy learning and creating content that people will use for there employment and potentially daily life.
 
 This portfolio is written using the markdown markup (quite a mouthful) language and using the Docsify document site generator that scaffolds a static documentation site.
 
