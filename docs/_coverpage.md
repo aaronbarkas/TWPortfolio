@@ -1,8 +1,6 @@
-<img src="me.jpg" alt="logo" style="zoom: 25%;" />
 
 
-
-# **Aaron Barkas Technical Writing Examples**
+# Aaron Barkas Technical Writing Examples
 
 
 
