@@ -2,13 +2,13 @@
 
 > Hello everyone that views this portfolio.
 
-My name is Aaron Barkas and I am an I.T graduate with over 2 years experience in the I.T industry. Working as a Service Desk Analyst and a Database Analyst. I'm looking to begin a career in technical writing as I enjoy learning and creating content that people will use for there employment and potentially daily life.
+My name is Aaron Barkas and I am an I.T graduate with over 2 years experience in the I.T industry. Working as a Service Desk Analyst and a Database Analyst. I'm looking to begin a career in technical writing as I enjoy learning and creating content that people will use for their employment and potentially daily life.
 
 This portfolio is written using the markdown markup (quite a mouthful) language and using the Docsify document site generator that scaffolds a static documentation site.
 
 Docsify is available at:  [Docsify] (https://docsify.js.org/).
 
-As I hope to keep this as a static site with one page so you can navigate the different writing and documentation that I have developed in employment or in my own free time as a learning tool.
+I hope to keep this as a static site with one page so you can navigate the different writing and documentation that I have developed in employment or in my own free time as a learning tool.
 
 This portfolio is also a work in progress and will improve as my skills develop.
 
@@ -199,7 +199,7 @@ Note. The file should have downloaded in your downloads folder. It may also appe
 
 # Web Application Documentation Examples
 
-Any information in these examples of my work were created by me and are GDPR and Intellectual Property compliant and contain no identifiable data or application source code. Examples here are of generic Create Read Update Delete database web application examples. 
+Any information in these examples of my work were created by me and are GDPR, Intellectual Property compliant and contain no identifiable data or application source code. Examples here are of generic create, read, update and delete database web application examples. 
 
 ## Overtime Web Application
 
@@ -213,7 +213,7 @@ The site map was created by me to show the different web pages on the web applic
 
 ### Overtime Process Flow
 
-The process flow was to show the user journey and the interaction between different users and their departments for the web application. Note. Orange objects referred to email examples in later sections of the documentation for GDPR and Intellectual Property issues I will not be able to display those email examples later in this portfolio.
+The process flow was to show the user journey and the interaction between different users and their departments for the web application. Note. Orange objects referred to email examples in later sections of the documentation and for GDPR and intellectual property issues I will not be able to display those email examples later in this portfolio.
 
 <img src="OvertimeFlow.PNG" alt="OvertimeFlow" style="zoom:60%;" /> 
 
