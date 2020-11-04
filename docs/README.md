@@ -35,7 +35,7 @@ The following releases of this document have been made:
 
 | Device Vendor                               | Preconfigured Targets/SoCs | Supported debug probes                                       |
 | ------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
-| ![](C:\Users\aaron\Desktop\nvidia_logo.png) | **Tegra 250**              | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
+| ![](nvidia_logo.png) | **Tegra 250**              | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
 |                                             | **Tegra 250 Dev Kit**      | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
 |                                             | **Tegra 3**                | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
 |                                             | **Tegra 3 Dev Kit**        | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
