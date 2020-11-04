@@ -17,6 +17,143 @@ This portfolio is also a work in progress and will improve as my skills develop.
 
 User guides section will display the user guides I have created in the workplace or to give examples of my technical writing.
 
+# Arm Development Studio
+
+Arm Development Studio is an embedded C/C++ development toolchain designed specifically for Arm-based SoCs, from tiny microcontrollers to custom multicore processors. Designed alongside Arm processor IP, it accelerates system design and software development for Cortex-M, Cortex-R and Cortex-A processors.
+
+##  Release Information
+
+The following releases of this document have been made:
+
+| Date       | Issue | Confidentiality               | Change      |
+| ---------- | ----- | ----------------------------- | ----------- |
+| 01/11/2020 | A-a-1 | Confidential-My Arm Interview | First Draft |
+|            |       |                               |             |
+|            |       |                               |             |
+
+## Supported Devices
+
+| Device Vendor                               | Preconfigured Targets/SoCs | Supported debug probes                                       |
+| ------------------------------------------- | -------------------------- | ------------------------------------------------------------ |
+| ![](C:\Users\aaron\Desktop\nvidia_logo.png) | **Tegra 250**              | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
+|                                             | **Tegra 250 Dev Kit**      | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
+|                                             | **Tegra 3**                | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
+|                                             | **Tegra 3 Dev Kit**        | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT                        |
+|                                             | **Jetson**                 | DSTREAM<br/>DSTREAM-ST<br/>DSTREAM-PT<br/>ULINKPro<br/>ULINKProD<br/>ULINK |
+
+This smaller list is just for example.
+
+## System Requirements 
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Operating System</th>
+    <th class="tg-0pky">Hardware Requirements Minimum</th>
+    <th class="tg-0pky">Hardware Requirements Improved Performance*</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Windows 7 SP1 Professional Edition</td>
+    <td class="tg-0pky" rowspan="6">CPU: Dual Core<br>RAM: 2GB<br>HDD: 3gb Available</td>
+    <td class="tg-0pky" rowspan="6">CPU: Dual Core<br>RAM: 4GB<br>3GB of Hard Disk Space Available<br></td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Windows 7 SP1 Enterprise Edition</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Windows 10</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Red Hat Enterprise Linux 7 Workstation</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ubuntu Desktop Edition 16.04 LTS</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Ubuntu Desktop Edition 18.04 LTS</td>
+  </tr>
+</tbody>
+</table>
+
+*Improved performance requirements are recommended if you are required to:
+
+* Debug large images.
+* Use models with large simulated memory maps.
+* Use ARM Streamline.
+
+## Arm Development Studio Installation
+
+Before you can install ARM Development Studio you must download the software from the ARM Developer website, the download to this installation file can be found here: [Arm Developer Studio Download](https://developer.arm.com/tools-and-software/embedded/arm-development-studio/downloads)
+
+### Procedure
+
+1. Unzip the downloaded `.zip` file.
+
+2. Run armds-<version>.exe from this location. This opens the Arm Development Studio setup wizard.
+
+3. Follow the on-screen instructions.
+
+   > ### Note
+   >
+   > - During installation, you might be prompted to install device drivers. Arm recommends that you install these drivers. They allow USB connections to DSTREAM and Energy Probe hardware units. They also support networking for the simulation models. These drivers are required to use these features.
+   > - When the drivers are installed, you might see some warnings about driver software. You can safely ignore these warnings.
+
+## Arm Development Studio - Product License
+
+On executing the Arm Development Studio for the first time the application will prompt for the product license. Two options are available:
+
+1. Add product license.
+2. Obtain evaluation license.
+
+### Add Product License
+
+Option one will allow entry of a license file or the network address of a license server.
+
+<img src="C:\Users\aaron\Desktop\ARM Interview\armlicense.PNG" alt="armlicense" style="zoom:60%; display: inline;" />
+
+### Obtain Evaluation License
+
+The evaluation license is a 30 day free trial of Arm Development Studio Gold. This requires an ARM developer account which can be created here: [Create Arm Developer Account](https://account.arm.com/1eb62d43-db15-492b-beab-8a32f6d90351/oauth2/v2.0/authorize?p=b2c_1a_arm_accounts.su&client_id=b7705cd8-fe14-4c60-9b70-a583ffad84ee&redirect_uri=https%3a%2f%2fdeveloper.arm.com%2flogin&response_mode=form_post&response_type=id_token&scope=openid&state=OpenIdConnect.AuthenticationProperties%3dGlwh53aKT_MiYfUbyut_GCMNL15QzZg0iRhOMDUDvARoP8WGCCHD3w5JlCgrE5TMTlVxI2z29oQ73z9LQ7n30a6B3pp2qVg3-gOhoJfZLC3MRUCOIO5QgmcFHalsTfBME5wlp3aI4ElC_nKqMvkV3r6_smhs7Pah3ma5IkXomPb8ORz8DS72DRfVr8yiYzYvs4XP8vCfYrO2H2Ax2miKK8kY8upwiHcJwNR6xvc_4Zf17R9p&nonce=637400972781724618.Yzg1OGQ0NWYtYmNjNi00NGIyLWE0MDMtMDBhZTM5NDY3ZGEwZWNmYmEyYmItYzZlNy00ZDU4LWI5YzgtNmE5MDg5ODhjMzUx&x-client-SKU=ID_NET&x-client-ver=1.0.40306.1554).
+
+Additionally, links to the ARM Developer account creation can be found on the obtain evaluation license window.
+
+<img src="C:\Users\aaron\Desktop\ARM Interview\obtain.png" alt="obtain" style="zoom:60%;" /> 
+
+
+
+## ARM Developer Studio IDE
+
+
+
+The ARM Development Studio Integrated Development Environment (IDE) is where the development of source code and hardware debugging will be performed.
+
+### ARM Developer Studio IDE - Overview
+
+![ide](C:\Users\aaron\Desktop\ARM Interview\ide.jpg)
+
+## Uninstalling ARM Development Studio
+
+Uninstalling the ARM Development Studio will remove the application and the associated files and folders from the device.
+
+### Windows - Uninstallation Procedure
+
+1. Access control panel from the start menu.
+2. Navigate to add or remove programs.
+3. Select ARM Development Studio from the list of programs.
+
+4. Select the uninstall button and follow the uninstallation process.
+
+
 
 
 ## WinRAR Installation Guide
