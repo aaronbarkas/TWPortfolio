@@ -111,7 +111,7 @@ On executing the Arm Development Studio for the first time the application will 
 
 Option one will allow entry of a license file or the network address of a license server.
 
-<img src="C:\Users\aaron\Desktop\ARM Interview\armlicense.PNG" alt="armlicense" style="zoom:60%; display: inline;" />
+<img src="armlicense.PNG" alt="armlicense" style="zoom:60%; display: inline;" />
 
 #### Obtain Evaluation License
 
@@ -119,7 +119,7 @@ The evaluation license is a 30 day free trial of Arm Development Studio Gold. Th
 
 Additionally, links to the ARM Developer account creation can be found on the obtain evaluation license window.
 
-<img src="C:\Users\aaron\Desktop\ARM Interview\obtain.png" alt="obtain" style="zoom:60%;" /> 
+<img src="obtain.png" alt="obtain" style="zoom:60%;" /> 
 
 
 
@@ -131,7 +131,7 @@ The ARM Development Studio Integrated Development Environment (IDE) is where the
 
 #### ARM Developer Studio IDE - Overview
 
-![ide](C:\Users\aaron\Desktop\ARM Interview\ide.jpg)
+![ide](ide.jpg)
 
 ### Uninstalling ARM Development Studio
 
