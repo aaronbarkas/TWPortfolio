@@ -95,7 +95,7 @@ Before you can install ARM Development Studio you must download the software fro
 
 3. Follow the on-screen instructions.
 
-   > ### Note
+   >  Note
    >
    > - During installation, you might be prompted to install device drivers. Arm recommends that you install these drivers. They allow USB connections to DSTREAM and Energy Probe hardware units. They also support networking for the simulation models. These drivers are required to use these features.
    > - When the drivers are installed, you might see some warnings about driver software. You can safely ignore these warnings.
